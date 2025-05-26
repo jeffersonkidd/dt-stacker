@@ -4,18 +4,26 @@ const path = require('path');
 const inputFolder = './tokens';
 const outputDir = './dist';
 const outputFile = path.join(outputDir, 'merged-tokens.json');
+const metadataFile = path.join(inputFolder, '$metadata.json');
 
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
 }
 
+// Read $metadata.json to get the list of files to merge
+const metadata = JSON.parse(fs.readFileSync(metadataFile, 'utf8'));
+const filesToMerge = metadata.tokenSetOrder || [];
+
 const output = {};
 
-fs.readdirSync(inputFolder).forEach(file => {
-  if (file.endsWith('.json')) {
-    const key = path.basename(file, '.json');
-    const content = JSON.parse(fs.readFileSync(path.join(inputFolder, file), 'utf8'));
-    output[key] = content;
+filesToMerge.forEach(name => {
+  const file = `${name}.json`;
+  const filePath = path.join(inputFolder, file);
+  if (fs.existsSync(filePath)) {
+    const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    output[name] = content;
+  } else {
+    console.warn(`⚠️ File not found: ${filePath}`);
   }
 });
 

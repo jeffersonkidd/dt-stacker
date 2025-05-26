@@ -3,11 +3,12 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
+    "compact": "node src/compact-tokens.js",
     "generate": "node src/generate-tokens.js",
     "merge": "node src/merge.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ProprietaryT",
+  "license": "Proprietary",
   "description": ""
 }
