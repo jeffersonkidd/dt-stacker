@@ -1,0 +1,82 @@
+{
+  "spacing": {
+    "0": { "$type": "spacing", "$value": 0 },
+    "50": { "$type": "spacing", "$value": 2 },
+    "100": { "$type": "spacing", "$value": 4 },
+    "200": { "$type": "spacing", "$value": 8 },
+    "300": { "$type": "spacing", "$value": 12 },
+    "400": { "$type": "spacing", "$value": 16 },
+    "600": { "$type": "spacing", "$value": 24 },
+    "800": { "$type": "spacing", "$value": 32 },
+    "1200": { "$type": "spacing", "$value": 48 },
+    "1600": { "$type": "spacing", "$value": 64 },
+    "2400": { "$type": "spacing", "$value": 96 },
+    "4000": { "$type": "spacing", "$value": 128 },
+    "negative 100": { "$type": "spacing", "$value": -4 },
+    "negative 200": { "$type": "spacing", "$value": -8 },
+    "negative 300": { "$type": "spacing", "$value": -12 },
+    "negative 400": { "$type": "spacing", "$value": -16 },
+    "negative 600": { "$type": "spacing", "$value": -24 }
+  },
+
+  "radius": {
+    "100": { "$type": "borderRadius", "$value": 4 },
+    "150": { "$type": "borderRadius", "$value": 6 },
+    "200": { "$type": "borderRadius", "$value": 8 },
+    "300": { "$type": "borderRadius", "$value": 12 },
+    "400": { "$type": "borderRadius", "$value": 16 },
+    "600": { "$type": "borderRadius", "$value": 24 },
+    "800": { "$type": "borderRadius", "$value": 32 },
+    "1200": { "$type": "borderRadius", "$value": 48 }
+  },
+  
+  "border": {
+    "0": { "$type": "borderWidth", "$value": 0 },
+    "25": { "$type": "borderWidth", "$value": 1 },
+    "50": { "$type": "borderWidth", "$value": 2 },
+    "75": { "$type": "borderWidth", "$value": 3 },
+    "100": { "$type": "borderWidth", "$value": 4 },
+    "150": { "$type": "borderWidth", "$value": 6 },
+    "200": { "$type": "borderWidth", "$value": 8 }
+  },
+  
+  "depth": {
+    "0": { "$type": "number", "$value": 0 },
+    "25": { "$type": "number", "$value": 1 },
+    "50": { "$type": "number", "$value": 2 },
+    "100": { "$type": "number", "$value": 4 },
+    "200": { "$type": "number", "$value": 8 },
+    "400": { "$type": "number", "$value": 16 },
+    "800": { "$type": "number", "$value": 32 },
+    "1200": { "$type": "number", "$value": 48 },
+    "negative 25": { "$type": "number", "$value": -1 },
+    "negative 100": { "$type": "number", "$value": -4 },
+    "negative 200": { "$type": "number", "$value": -8 },
+    "negative 400": { "$type": "number", "$value": -16 },
+    "negative 800": { "$type": "number", "$value": -32 },
+    "negative 1200": { "$type": "number", "$value": -48 }
+  },
+
+  "blur": {
+    "0": { "$type": "number", "$value": 0 },
+    "25": { "$type": "number", "$value": 1 },
+    "50": { "$type": "number", "$value": 2 },
+    "75": { "$type": "number", "$value": 3 },
+    "100": { "$type": "number", "$value": 4 },
+    "150": { "$type": "number", "$value": 6 }
+  },
+
+  "opacity": {
+    "none": { "$type": "opacity", "$value": "0" },
+    "low": { "$type": "opacity", "$value": "15" },  
+    "med": { "$type": "opacity", "$value": "30" },
+    "high": { "$type": "opacity", "$value": "90" },
+    "full": { "$type": "opacity", "$value": "100" }
+  },
+
+  "icon": {
+    "sm": { "$type": "sizing", "$value": 24 },
+    "md": { "$type": "sizing", "$value": 32 },
+    "lg": { "$type": "sizing", "$value": 40 }
+  }
+}

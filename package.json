@@ -1,0 +1,13 @@
+{
+  "name": "dst-stack",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/generate-tokens.js",
+    "merge": "node src/merge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ProprietaryT",
+  "description": ""
+}

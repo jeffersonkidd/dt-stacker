@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "core",
+    "layouts-pico",
+    "typography",
+    "geometry",
+    "theme"
+  ]
+} 

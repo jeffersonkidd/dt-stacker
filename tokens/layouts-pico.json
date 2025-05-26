@@ -1,0 +1,43 @@
+{    
+  "desktop": {
+      "maxWidth": { "$type": "sizing", "$value": 1920 },
+      "minWidth": { "$type": "sizing", "$value": 1200 },
+      "maxWidthContainer": { "$type": "sizing", "$value": 1140 },
+      "columns": { "$type": "number", "$value": 12 },
+      "columnsWidth": { "$type": "sizing", "$value": 64 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 1120 }
+    },
+  "laptop": {
+      "maxWidth": { "$type": "sizing", "$value": 1199 },
+      "minWidth": { "$type": "sizing", "$value": 1024 },
+      "maxWidthContainer1": { "$type": "sizing", "$value": 960 },
+      "maxWidthContainer2": { "$type": "sizing", "$value": 1024 },
+      "columns": { "$type": "number", "$value": 12 },
+      "columnsWidth": { "$type": "sizing", "$value": 72 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 1024 }
+    },
+  "tablet": {
+      "maxWidth": { "$type": "sizing", "$value": 1023 },
+      "minWidth": { "$type": "sizing", "$value": 768 },        
+      "maxWidthContainer": { "$type": "sizing", "$value": 720 },
+      "columns": { "$type": "number", "$value": 8 },
+      "columnsWidth": { "$type": "sizing", "$value": 72 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 720 }
+    },
+  "mobile": {
+      "maxWidth": { "$type": "sizing", "$value": 767 },
+      "minWidth": { "$type": "sizing", "$value": 320 },
+      "maxWidthContainer": { "$type": "sizing", "$value": "100%" },
+      "columns": { "$type": "number", "$value": 4 },
+      "columnsWidth": { "$type": "sizing", "$value": 72 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 384 }
+  }
+}

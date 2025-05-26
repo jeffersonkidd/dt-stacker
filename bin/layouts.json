@@ -1,0 +1,32 @@
+{    
+  "desktop": {
+      "maxWidth": { "$type": "sizing", "$value": 1920 },
+      "minWidth": { "$type": "sizing", "$value": 1280 },
+      "maxWidthContainer": { "$type": "sizing", "$value": 1216 },
+      "columns": { "$type": "number", "$value": 12 },
+      "columnsWidth": { "$type": "sizing", "$value": 72 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 1216 }
+    },
+  "tablet": {
+      "maxWidth": { "$type": "sizing", "$value": 1199 },
+      "minWidth": { "$type": "sizing", "$value": 800 },        
+      "maxWidthContainer": { "$type": "sizing", "$value": 800 },
+      "columns": { "$type": "number", "$value": 8 },
+      "columnsWidth": { "$type": "sizing", "$value": 72 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 800 }
+    },
+  "mobile": {
+      "maxWidth": { "$type": "sizing", "$value": 799 },
+      "minWidth": { "$type": "sizing", "$value": 320 },
+      "maxWidthContainer": { "$type": "sizing", "$value": "100%" },
+      "columns": { "$type": "number", "$value": 4 },
+      "columnsWidth": { "$type": "sizing", "$value": 72 },
+      "gutter": { "$type": "spacing", "$value": 32 },
+      "margin": { "$type": "spacing", "$value": 0 },
+      "designWidth": { "$type": "sizing", "$value": 384 }
+  }
+}

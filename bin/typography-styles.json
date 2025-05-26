@@ -1,0 +1,89 @@
+{
+  "typography": {
+    "Xxxl": {
+      "Small": {
+        "Base": {
+      
+        },
+        "Ba": {
+
+        }
+      }
+    },
+      "Medium": {
+        "Base"
+        "Bold"
+      "Large": {
+        "Base"
+        "Bold"
+      }
+    },
+    "Xxl": {
+  
+    "Xxl": {
+      "Small"
+        "Base"
+        "Bold"
+      "Medium"
+        "Base"
+        "Bold"
+      "Large"
+        "Base"
+        "Bold"
+    },
+    "Xl": {
+      "Small"
+        "Base"
+        "Bold"
+      "Medium"
+        "Base"
+        "Bold"
+      "Large"
+        "Base"
+        "Bold"
+    },	
+    "Lg": {
+      "Small"
+        "Base"
+        "Bold"
+      "Medium"
+        "Base"
+        "Bold"
+      "Large"
+        "Base"
+        "Bold"
+    },
+    "Md": {
+      "Small"
+        "Base"
+        "Bold"
+      "Medium"
+        "Base"
+        "Bold"
+      "Large"
+        "Base"
+        "Bold"
+    },
+    "Sm": {
+      "Small"
+        "Base"
+        "Bold"
+      "Medium"
+        "Base"
+        "Bold"
+      "Large"
+        "Base"
+        "Bold"
+    },
+    "Xs": {
+      "Small"
+        "Base"
+        "Bold"
+      "Medium"
+        "Base"
+        "Bold"
+      "Large"
+        "Base"
+        "Bold"
+    }
+  }
