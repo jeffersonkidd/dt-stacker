@@ -4,6 +4,10 @@
     "layouts-pico",
     "typography",
     "geometry",
-    "theme"
+    "color",
+    "theme",
+    "effect-styles",    
+    "$themes",
+    "$metadata"
   ]
 } 

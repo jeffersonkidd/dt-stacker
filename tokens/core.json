@@ -17,7 +17,7 @@
       "100%": { "$type": "color", "$value": "#FFFFFFFF" },
       "75%": { "$type": "color", "$value": "#FFFFFFBF" },
       "50%": { "$type": "color", "$value": "#FFFFFF7F" },
-      "30%": { "$type": "color", "$value": "#FFFFFFF4D" },
+      "30%": { "$type": "color", "$value": "#FFFFFF4D" },
       "25%": { "$type": "color", "$value": "#FFFFFF3F" },
       "15%": { "$type": "color", "$value": "#FFFFFF26" },
       "10%": { "$type": "color", "$value": "#FFFFFF1A" },
