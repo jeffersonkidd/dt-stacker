@@ -9,17 +9,6 @@
       "margin": { "$type": "spacing", "$value": 0 },
       "designWidth": { "$type": "sizing", "$value": 1128 }
     },
-  "laptop": {
-      "maxWidth": { "$type": "sizing", "$value": 1199 },
-      "minWidth": { "$type": "sizing", "$value": 1024 },
-      "maxWidthContainer1": { "$type": "sizing", "$value": 960 },
-      "maxWidthContainer2": { "$type": "sizing", "$value": 1024 },
-      "columns": { "$type": "number", "$value": 12 },
-      "columnsWidth": { "$type": "sizing", "$value": 72 },
-      "gutter": { "$type": "spacing", "$value": 24 },
-      "margin": { "$type": "spacing", "$value": 0 },
-      "designWidth": { "$type": "sizing", "$value": 1024 }
-    },
   "tablet": {
       "maxWidth": { "$type": "sizing", "$value": 1023 },
       "minWidth": { "$type": "sizing", "$value": 768 },        
