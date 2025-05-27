@@ -16,7 +16,12 @@
     "negative 200": { "$type": "spacing", "$value": -8 },
     "negative 300": { "$type": "spacing", "$value": -12 },
     "negative 400": { "$type": "spacing", "$value": -16 },
-    "negative 600": { "$type": "spacing", "$value": -24 }
+    "negative 600": { "$type": "spacing", "$value": -24 },
+    "negative 800": { "$type": "spacing", "$value": -32 },
+    "negative 1200": { "$type": "spacing", "$value": -48 },
+    "negative 1600": { "$type": "spacing", "$value": -64 },
+    "negative 2400": { "$type": "spacing", "$value": -96 },
+    "negative 4000": { "$type": "spacing", "$value": -128 }
   },
 
   "radius": {
@@ -77,6 +82,6 @@
   "icon": {
     "sm": { "$type": "sizing", "$value": 24 },
     "md": { "$type": "sizing", "$value": 32 },
-    "lg": { "$type": "sizing", "$value": 40 }
+    "lg": { "$type": "sizing", "$value": 48 }
   }
 }

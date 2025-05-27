@@ -1,4 +1,19 @@
 {
+  "root": { "$type": "dimension", "$value": 16 },
+
+  "typescale": {
+    "lg": { "$type": "dimension", "$value": 1.618 },
+    "md": { "$type": "dimension", "$value": 1.414 },
+    "sm": { "$type": "dimension", "$value": 1.333 },
+    "horiz": { "$type": "dimension", "$value": 1.125 }
+  },
+
+  "breakpoints": {
+      "desktop": { "$type": "sizing", "$value": 1280 },
+      "tablet": { "$type": "sizing", "$value": 800 },
+      "mobile": { "$type": "sizing", "$value": 320 }
+  },
+
   "color": {
     "black": {
       "100%": { "$type": "color", "$value": "#000000FF" },

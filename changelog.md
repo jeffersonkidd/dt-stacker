@@ -7,3 +7,5 @@ Updated "letterSpacing" group in core collection
 Updated "lineHeights" group in core collection
 Updated "fontFamilies" group in core collection
 Updated "opacity" group in core collection
+
+theme was formerly for "styles"

@@ -1,11 +1,4 @@
 {
-  "root": { "$type": "dimension", "$value": 16 },
-
-  "lgTypescale": { "$type": "dimension", "$value": "1.414" },
-  "mdTypescale": { "$type": "dimension", "$value": "1.333" },
-  "smTypescale": { "$type": "dimension", "$value": "1.25" },
-  "hrTypescale": { "$type": "dimension", "$value": "1.125" },
-
   "fontFamilies": {
     "display": { "$type": "fontFamilies", "$value": "Inter" },
     "sans": { "$type": "fontFamilies", "$value": "Inter" },
@@ -22,7 +15,9 @@
   },
 
   "fontSizes": {
+
     "lg": {
+      "-03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {lgTypescale}^-3 )" },
       "-02": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {lgTypescale}^-2 )" },
       "-01": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {lgTypescale}^-1 )" },
       "00": { "$type": "fontSizes", "$value": "roundTo( {root} * {hrTypescale}^3 * {lgTypescale}^0 )" },
@@ -33,7 +28,9 @@
       "05": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {lgTypescale}^5)" },
       "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {lgTypescale}^6)" }
     },
+    
     "md": {
+      "-03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {lgTypescale}^-3 )" },
       "-02": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {mdTypescale}^-2 )" },
       "-01": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {mdTypescale}^-1 )" },
       "00": { "$type": "fontSizes", "$value": "roundTo( {root} * {hrTypescale}^2 * {mdTypescale}^0 )" },
@@ -44,7 +41,9 @@
       "05": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {mdTypescale}^5)" },
       "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {mdTypescale}^6)" }
     },
+
     "sm": {
+      "-03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {lgTypescale}^-3 )" },
       "-02": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {smTypescale}^-2 )" },
       "-01": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {smTypescale}^-1 )" },
       "00": { "$type": "fontSizes", "$value": "roundTo( {root} * {hrTypescale}^1 * {smTypescale}^0" },
@@ -67,9 +66,13 @@
   },
 
   "letterSpacing": {
-    "increased": { "$type": "letterSpacing", "$value": 0.3 },
-    "default": { "$type": "letterSpacing", "$value": 0.0 },
-    "decreased": { "$type": "letterSpacing", "$value": -0.1 }
+    "1.0": { "$type": "letterSpacing", "$value": 1.0 },
+    "0.6": { "$type": "letterSpacing", "$value": 0.6 },
+    "0.3": { "$type": "letterSpacing", "$value": 0.3 },
+    "0": { "$type": "letterSpacing", "$value": 0.0 },
+    "-0.1": { "$type": "letterSpacing", "$value": -0.1 },
+    "-0.5": { "$type": "letterSpacing", "$value": -0.5 },
+    "-1.0": { "$type": "letterSpacing", "$value": -1.0 }
   },
 
   "paragraphSpacing": {
