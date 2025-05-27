@@ -1,13 +1,13 @@
 {
   "tokenSetOrder": [
-    "layouts_default",
-    "core_default",
-    "color_default",
-    "typography_default",
-    "geometry_default",
-    "theme_default",
-    "text-styles_default",
-    "effect-styles_default",    
+    "core",
+    "color",
+    "typography",
+    "geometry",
+    "layouts",
+    "theme",
+    "text-styles",
+    "effect-styles",    
     "$themes",
     "$metadata"
   ]
