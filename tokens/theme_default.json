@@ -1,0 +1,20 @@
+{
+  "text-token": { 
+    "Text String": { "$type": "text", "$value": "The quick brown fox jumps over the lazy dog" },
+    "Text String 2": { "$type": "text", "$value": "Baseline and Styled" }
+  },
+
+  "button": {
+    "primary": {
+      "background": { "$type": "color", "$value": "{accent.default}" },
+      "text": { "$type": "color", "$value": "{accent.onAccent}" }
+    },
+    "borderRadius": { "$type": "borderRadius", "$value": "{radius.200}" },
+    "borderWidth": { "$type": "borderWidth", "$value": "{stroke.200}" }
+  },
+  "card": {
+    "borderRadius": { "$type": "borderRadius", "$value": "{radius.200}" },
+    "background": { "$type": "color", "$value": "{bg.default}" },
+    "padding": { "$type": "dimension", "$value": "{space.400}" }
+  }
+}
