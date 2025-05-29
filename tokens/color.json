@@ -1,5 +1,5 @@
 { 
-  "updating": {
+  "fg": {
     "default": { "$type": "color", "$value": "{colors.black.100%}" },
     "muted": {  "$type": "color", "$value": "{colors.gray.700}" },
     "subtle": { "$type": "color", "$value": "{colors.gray.500}" }
