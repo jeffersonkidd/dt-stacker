@@ -224,7 +224,7 @@
     }
   },
   "color": {
-    "fg": {
+    "updating": {
       "default": {
         "$type": "color",
         "$value": "{colors.black.100%}"
