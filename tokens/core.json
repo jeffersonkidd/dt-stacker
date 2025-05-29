@@ -1,11 +1,13 @@
 {
   "root": { "$type": "dimension", "$value": 16 },
+  "multiplier": { "$type": "dimension", "$value": 2.25 },
+  "rootMultiplier": { "$type": "dimension", "$value": "{root} * {multiplier}" },
 
   "typescale": {
-    "lg": { "$type": "dimension", "$value": 1.618 },
-    "md": { "$type": "dimension", "$value": 1.414 },
-    "sm": { "$type": "dimension", "$value": 1.333 },
-    "horiz": { "$type": "dimension", "$value": 1.125 }
+    "lg": { "$type": "dimension", "$value": 1.333 },
+    "md": { "$type": "dimension", "$value": 1.333 },
+    "sm": { "$type": "dimension", "$value": 1.2 },
+    "horiz": { "$type": "dimension", "$value": 1.2 }
   },
 
   "breakpoints": {
