@@ -1,12 +1,12 @@
 {
   "tokenSetOrder": [
-    "core_GMH",
+    "core",
     "color",
-    "typography_GMH",
+    "typography",
     "geometry",
     "layouts",
     "theme",
-    "text-styles_GMH",
+    "text-styles",
     "effect-styles",    
     "$themes",
     "$metadata"
