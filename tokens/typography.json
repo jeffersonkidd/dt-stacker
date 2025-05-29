@@ -68,16 +68,17 @@
   },
 
   "letterSpacing": {
-    "3.0": { "$type": "letterSpacing", "$value": 3.0 },
-    "1.0": { "$type": "letterSpacing", "$value": 1.0 },
-    "0.6": { "$type": "letterSpacing", "$value": 0.6 },
-    "0.3": { "$type": "letterSpacing", "$value": 0.3 },
+    "1200": { "$type": "letterSpacing", "$value": 3.0 },
+    "600": { "$type": "letterSpacing", "$value": 1.5 },
+    "400": { "$type": "letterSpacing", "$value": 1.0 },
+    "200": { "$type": "letterSpacing", "$value": 0.5 },
+    "100": { "$type": "letterSpacing", "$value": 0.25 },
     "0": { "$type": "letterSpacing", "$value": 0.0 },
-    "-0.1": { "$type": "letterSpacing", "$value": -0.1 },
-    "-0.5": { "$type": "letterSpacing", "$value": -0.5 },
-    "-1.0": { "$type": "letterSpacing", "$value": -1.0 },
-    "-1.5": { "$type": "letterSpacing", "$value": -1.5 },
-    "-3.0": { "$type": "letterSpacing", "$value": -3.0 }
+    "Negative 100": { "$type": "letterSpacing", "$value": -0.25 },
+    "Negative 200": { "$type": "letterSpacing", "$value": -0.5 },
+    "Negative 400": { "$type": "letterSpacing", "$value": -1.0 },
+    "Negative 600": { "$type": "letterSpacing", "$value": -1.5 },
+    "Negative 1200": { "$type": "letterSpacing", "$value": -3.0 }
   },
 
   "paragraphSpacing": {
