@@ -17,7 +17,6 @@
   "fontSizes": {
 
     "lg": {
-      "-04": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^-4 )" },
       "-03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^-3 )" },
       "-02": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^-2 )" },
       "-01": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^-1 )" },
@@ -27,11 +26,11 @@
       "03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^3)" },
       "04": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^4)" },
       "05": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^5)" },
-      "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^6)" }
+      "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^6)" },
+      "07": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.lg.00} * {typescale.lg}^7)" }
     },
     
     "md": {
-      "-04": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^-4 )" },
       "-03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^-3 )" },
       "-02": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^-2 )" },
       "-01": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^-1 )" },
@@ -41,11 +40,11 @@
       "03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^3)" },
       "04": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^4)" },
       "05": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^5)" },
-      "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^6)" }
+      "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^6)" },
+      "07": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.md.00} * {typescale.md}^7)" }
     },
 
     "sm": {
-      "-04": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^-4 )" },
       "-03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^-3 )" },
       "-02": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^-2 )" },
       "-01": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^-1 )" },
@@ -55,7 +54,8 @@
       "03": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^3)" },
       "04": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^4)" },
       "05": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^5)" },
-      "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^6)" }
+      "06": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^6)" },
+      "07": { "$type": "fontSizes", "$value": "roundTo( {fontSizes.sm.00} * {typescale.sm}^7)" }
     }
   },  
   "lineHeights": {
