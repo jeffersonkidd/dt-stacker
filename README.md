@@ -1,5 +1,3 @@
-! WELCOME TO MY PEN !
-
 # 🪙 Design Token Collection Stack
 
 This library contains 5 design token collections, each as a JSON file in `/tokens/`:
