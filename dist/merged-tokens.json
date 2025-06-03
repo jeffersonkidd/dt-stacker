@@ -1,5 +1,5 @@
 {
-  "core": {
+  "core_GMH": {
     "root": {
       "$type": "dimension",
       "$value": 16
@@ -273,7 +273,7 @@
       }
     }
   },
-  "typography": {
+  "typography_GMH": {
     "fontFamilies": {
       "sans": {
         "$type": "fontFamilies",
@@ -1009,7 +1009,7 @@
       }
     }
   },
-  "text-styles": {
+  "text-styles_GMH": {
     "Large": {
       "Baseline": {
         "Xxxl": {
@@ -1876,13 +1876,13 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "core",
+      "core_GMH",
       "color",
-      "typography",
+      "typography_GMH",
       "geometry",
       "layouts",
       "theme",
-      "text-styles",
+      "text-styles_GMH",
       "effect-styles",
       "$themes",
       "$metadata"
