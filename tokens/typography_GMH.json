@@ -1,6 +1,8 @@
 {
   "fontFamilies": {
-    "sans": { "$type": "fontFamilies", "$value": "Inter" },
+    "sans": { "$type": "fontFamilies", "$value": "Avenir Next LT Pro" },
+    "serif": { "$type": "fontFamilies", "$value": "Hoefler Text" },
+    "body": { "$type": "fontFamilies", "$value": "Avenir" },
     "mono": { "$type": "fontFamilies", "$value": "Roboto Mono" }
   },
 
