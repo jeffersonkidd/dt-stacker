@@ -3,6 +3,7 @@
     "sans": { "$type": "fontFamilies", "$value": "Avenir Next LT Pro" },
     "serif": { "$type": "fontFamilies", "$value": "Hoefler Text" },
     "body": { "$type": "fontFamilies", "$value": "Avenir" },
+    "display": { "$type": "fontFamilies", "$value": "Liberator" },
     "mono": { "$type": "fontFamilies", "$value": "Roboto Mono" }
   },
 
