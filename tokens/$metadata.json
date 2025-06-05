@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
     "core_GMH",
-    "color",
+    "color_GMH",
     "typography_GMH",
     "geometry",
     "layouts",
