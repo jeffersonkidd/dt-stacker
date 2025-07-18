@@ -522,3 +522,79 @@ Here you go! Your full MD3 palette and role definitions exported as both JSON an
 📁 Download CSS File
 
 Let me know if you'd like SCSS tokens, Figma-compatible JSON, or if you want this turned into a live theme preview next. 
+
+-------------
+
+# Design System Broadcast
+
+To start moving your design system components into Wix via iframes, you'll want to:
+
+1. Export your components as standalone HTML/CSS/JS or bundle them (e.g., with React, use something like Parcel or Vite).
+2. Host your components somewhere accessible (e.g., GitHub Pages, Vercel, Netlify).
+3. Embed them in Wix by setting the iframe src to your hosted component URL.
+
+-------------
+
+Here’s a step-by-step guide for each part:
+
+1. Export Your Component
+If you’re using React, create a simple app for your component:
+
+```
+    npx create-react-app my-component
+    # Or use Vite for a lighter setup:
+    npm create vite@latest my-component -- --template react
+```
+
+Place your design system component in ```src/App.js``` (or wherever appropriate).
+
+2. Host Your Component
+Push your code to GitHub, then deploy using a static host:
+
+- GitHub Pages:
+Add "homepage": "https://yourusername.github.io/my-component" to package.json, then run:
+```
+npm run build
+npm install gh-pages --save-dev
+npx gh-pages -d build
+
+```
+
+Vercel/Netlify:
+Sign up, connect your repo, and deploy. They’ll give you a public URL.
+3. Embed in Wix via iframe
+In Wix, add an HTML iframe element and set its src to your hosted component’s URL:
+
+```
+<iframe src="https://yourusername.github.io/my-component" width="100%" height="500"></iframe>
+```
+
+# GitHub Pages
+
+Here’s how to deploy your component using GitHub Pages:
+
+1. Prepare Your Component
+If you already have your component in a React project, skip to step 2.
+Otherwise, create a new React app:
+
+``` npm create vite@latest my-figma-app -- --template react ```
+
+Place your design system component in src/App.js.
+
+2. Push to GitHub
+Initialize git, commit, and push to a new GitHub repo:
+
+```
+it init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/my-component.git
+git push -u origin main
+```
+3. Configure for GitHub Pages
+Add this to your ```package.json:```
+```
+// ...existing code...
+"homepage": "https://yourusername.github.io/my-component",
+// ...existing code...
+```
